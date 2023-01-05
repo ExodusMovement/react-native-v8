@@ -35,6 +35,5 @@
     "react-native": "^0.64.0"
   },
   "devDependencies": {
-    "clang-format": "^1.4.0"
   }
 }
