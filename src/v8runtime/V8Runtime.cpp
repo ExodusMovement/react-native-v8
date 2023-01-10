@@ -71,7 +71,7 @@ jsi::Value V8Runtime::ExecuteScript(
       sourceURL.c_str(),
       v8::NewStringType::kNormal,
       sourceURL.length());
-  v8::ScriptOrigin origin(sourceURLValue.ToLocalChecked());
+  v8::ScriptOrigin origin(isolate, sourceURLValue.ToLocalChecked());
 
   v8::Local<v8::Script> compiledScript;
   v8::Local<v8::Context> context(isolate->GetCurrentContext());
