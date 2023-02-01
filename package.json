@@ -1,6 +1,6 @@
 {
   "name": "@exodus/react-native-v8",
-  "version": "v0.64.0-patch.0-exodus.0",
+  "version": "v0.64.0-patch.0-exodus.1",
   "description": "Opt-in V8 runtime for React Native Android",
   "repository": {
     "type": "git",
