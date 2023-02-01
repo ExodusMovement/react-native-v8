@@ -29,7 +29,7 @@
     "RN_VERSION": "v0.64.0"
   },
   "dependencies": {
-    "v8-android": "10.100.1"
+    "v8-android": "~9.88.0"
   },
   "peerDependencies": {
     "react-native": "^0.64.0"
